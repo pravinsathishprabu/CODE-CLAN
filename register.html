@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MAMCET</title>
+	<style>
+		.att{
+			font-size: 20px;
+			color:white;
+			float:left;
+		}
+		.btn{
+			background-color: yellow;
+		}
+		form{
+			border:1px solid black;
+			background-color: green;
+			padding:100px;
+			margin:50px;
+			width: 550px;
+		}
+		div{
+			padding:10px;
+		}
+		body{
+			background-color: hotpink;
+		}
+		.box{
+			padding: 10px;
+			margin: 10px;
+			width: 450px;
+		}
+	</style>
+</head>
+<body>
+	<div style="background-color: black;">
+		<h1 style="text-align: center;color: orange;">CODE CLAN</h1>
+	</div>
+	<center>
+		<h1>Register form</h1>
+		<form autocomplete="off">
+			<div>
+				<label class="att">Name</label><br/>
+				<input type="text" name="name" class="box" placeholder="Enter Your Name" />
+			</div>
+			<div>
+				<label class="att">Email Id</label><br/>
+				<input type="email" name="email" class="box" required />
+			</div>
+			<div>
+				<label class="att">Password</label><br/>
+				<input type="password" name="Password" class="box" required placeholder="enter your Password" />
+			</div>
+			<div>
+				<label class="att">Phone Number</label><br/>
+				<input type="mobile" name="mobile" class="box">	
+			</div>
+			<div>
+				<label class="att">DOB</label><br/>
+				<input type="date" name="dob" class="box"/>
+				
+			</div>
+			<div>
+				<label class="att">Gender</label><br/>
+				<input type="radio" value="male"/><label>Male</label>
+				<input type="radio" value="female"/><label>FeMale</label>	
+			</div>
+			<div>
+				<label class="att">Address</label><br/>
+				<textarea name="address" class="box"></textarea>
+			</div>
+			<input type="checkbox" name="box"/>Remember me<br/><br/>
+			<input type="submit" name="submit" value="Submit" class="btn" />
+			<input type="reset" name="reset" value="Reset"/><br/><br/>
+			<b>Click here to <a href="login.html">login</a></b>
+		</form>
+	</center>
+</body>
+</html>

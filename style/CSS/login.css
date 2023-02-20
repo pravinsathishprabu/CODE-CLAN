@@ -1,0 +1,32 @@
+
+		.att{
+			font-size: 20px;
+			color:black;
+			float:left;
+		}
+		.btn{
+			background-color: violet;
+			padding:10px;
+		}
+		.btn:hover{
+			cursor:pointer;
+		}
+		form{
+			border:1px solid black;
+			padding:100px;
+			margin:50px;
+			width: 550px;
+			background-image: url('../../img/download.jpg');
+			background-position: center;
+			background-size: cover;
+		}
+		div{
+			padding:10px;
+		}
+		
+		.box{
+			padding: 10px;
+			margin: 10px;
+			width: 450px;
+		}
+	
